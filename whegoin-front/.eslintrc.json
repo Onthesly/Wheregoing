@@ -1,0 +1,4 @@
+/* global google */
+{
+  "extends": "react-app"
+}

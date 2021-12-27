@@ -1,0 +1,28 @@
+.clicked {
+  background-color: #d2e1ff;
+}
+.scrollleft {
+  /* width: '200px'; */
+  /* height: '600px'; */
+  /* border: '1px solid green'; */
+  overflow: scroll;
+  /* IE scroll 숨김 */
+  -ms-overflow-style: none;
+}
+.scrollleft::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+}
+
+.scrollright {
+  width: '200px';
+  height: '800px';
+  border: '2px solid yellow';
+  overflow: scroll;
+  /* IE scroll 숨김 */
+  -ms-overflow-style: none;
+}
+.scrollright::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+}
